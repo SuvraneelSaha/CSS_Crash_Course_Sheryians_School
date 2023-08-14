@@ -1,0 +1,10 @@
+CSS
+the thing is that we dont need to learn everything 
+the process is simple - you need to know the 20% of the things to 
+output 80% of the results 
+thats it 
+
+Css is all about styling 
+
+giving life to html is CSS 
+
