@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#car1{
+  
+  width: 100px;
+  height: 110px;
+  background-color: red;
+}
+
+#car2{
+ 
+  width: 110px;
+  height: 120px;
+  background-color: blue;
+   
+  
+   
+}
+
+#car3{
+
+  width: 130px;
+  height: 110px;
+  background-color: green;
+}
+
+/* position - static by default  
+relative , fixed , sticky , absoulte these are some other values*/
+
+/* without the position:absolute , there will be no use of right , top and what not  */
+

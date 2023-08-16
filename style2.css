@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#box{
+width: 300px;
+height: 300px;
+background-color: red;
+position: relative;
+}
+
+#chotu{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  left: 50%;
+
+}
+/* the left comparison in done on the basis of the box  */
+/* tip : if there is a box and inside of that box there is a child inside of it and you wanna move the chota box 
+then you have to make the box relative but if you do absolute then the chota box will be according to that of the bigger box 
+PS : 3 boxes - biggest bigger big  */
+
+ 

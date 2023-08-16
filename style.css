@@ -12,15 +12,76 @@ html,body{
 /* koi bhi element target karo then use braces */
 
 /* # for id , . for class , h1 - tag  */
+/* 
+These above two css rules are important for starting with css 
+the reason will be given later on why we used it  */
 
 p{
-
+  font-size: 20px;
+  color: aqua;
 }
 
 .a{
-
+  color: red;
 }
 
-#a{
+#A{
+  color: black
+}
+
+/* you can targer an element using a  id , tag and class*/
+/* but dont use #h1 like these in naming elements and targetting elements :
+ */
+
+#main{
+  width: 700px;
+  height: 100px;
+  /* percentage are very important */
+  background-color: black;
+}
+
+/* div is like a rectangle the height and width of which is
+determined by the contents present inside of it  */
+
+#main1{
+  width: 100px;
+  height: 100px;
+  margin: 20px 30px ;
+  background-color: rebeccapurple;
+}
+
+/* margin - on all sides space outside the element  */
+/* clockwise margin rule for 4 sides  */
+/* 2 sides - polar opposite top bottom && right left */
+
+#main2{
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+
+}
+/* padding - imaginary border inside element */
+/* margin -  imaginary border outside element */
+
+#main3{
+  width: 50%;
+  height: 50%;
+  margin:40px;
+  background-image: url(https://images.unsplash.com/photo-1691928860415-b1dcdc08a601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
   
+
+}
+/* background-size : cover - covers the whole image 
+it will cover the whole are by that of the image */
+
+#main4{
+  width: 50%;
+  height: 50%;
+  margin:40px;
+  background-image: url(https://images.unsplash.com/photo-1690567061013-e3b25264a8c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+  background-position: top; 
 }
